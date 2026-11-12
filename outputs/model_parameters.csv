@@ -1,0 +1,27 @@
+parameter,value
+technology.technology_name,Illustrative 180 nm CMOS (not a foundry PDK)
+technology.channel_length_um,0.18
+technology.min_nmos_width_um,0.22
+technology.pmos_to_nmos_width_ratio,2.0
+technology.oxide_capacitance_fF_per_um2,6.9
+technology.overlap_capacitance_fF_per_um,0.15
+technology.diffusion_capacitance_fF_per_um_width,0.35
+technology.diffusion_capacitance_fF_per_um2,0.5
+technology.diffusion_length_um,0.18
+technology.r_n_min_ohm,12000.0
+technology.r_p_min_ohm,24000.0
+technology.reference_supply_voltage_v,1.8
+technology.supply_voltage_v,1.8
+technology.threshold_voltage_n_v,0.4
+technology.threshold_voltage_p_abs_v,0.4
+technology.reference_temperature_c,27.0
+technology.temperature_c,27.0
+technology.resistance_tempco_per_c,0.002
+circuit.n_stages,4
+circuit.fixed_first_stage_size,1.0
+circuit.min_size,1.0
+circuit.max_size,64.0
+circuit.external_load_multiplier,64.0
+circuit.interconnect_capacitance_fF_per_stage,0.2
+model.area_definition,Sum of transistor channel areas (Wn + Wp) * L; excludes layout overhead
+model.delay_definition,Sum of per-stage worst-transition delays using 0.69 * R * C
